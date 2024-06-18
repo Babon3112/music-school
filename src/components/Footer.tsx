@@ -1,10 +1,12 @@
-'use client'
+"use client";
 import React from "react";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa"; // Importing FontAwesome icons
 
 const Footer = () => {
   return (
-    <div className="bg-gradient-to-r from-gray-800 to-black text-gray-300 py-12"> {/* Kept the gradient consistent */}
+    <div className="bg-gradient-to-r from-gray-800 to-black text-gray-300 py-12">
+      {" "}
+      {/* Kept the gradient consistent */}
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8">
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
