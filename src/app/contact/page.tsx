@@ -19,9 +19,9 @@ const page = () => {
           Contact Us
         </h1>
         <p className="text-neutral-400 max-w-lg mx-auto mb-8 text-center">
-          We’re here to help with any questions about our courses, programs, or
-          events. Reach out and let us know how we can assist you in your
-          musical journey.
+          We&apos;re here to help with any questions about our courses,
+          programs, or events. Reach out and let us know how we can assist you
+          in your musical journey.
         </p>
         <form
           onSubmit={handleSubmit}

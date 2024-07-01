@@ -13,7 +13,10 @@ const page = () => {
       </h1>
       <div className="flex flex-wrap justify-center">
         {courseData.courses.map((course) => (
-          <CardContainer className="m-5 transform transition duration-500 hover:scale-105">
+          <CardContainer
+            className="m-5 transform transition duration-500 hover:scale-105"
+            key={course.id}
+          >
             <CardBody className="bg-gray-800 relative group/card hover:shadow-xl hover:shadow-emerald-500/[0.2] dark:bg-gray-900 dark:border-gray-700 border-gray-500 w-auto sm:w-[30rem] h-auto rounded-xl p-6 border transition-shadow">
               <CardItem
                 translateZ="50"
